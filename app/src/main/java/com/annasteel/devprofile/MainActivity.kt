@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         val rounded = RoundedBitmapDrawableFactory.create(resources, bitmap)
         rounded.cornerRadius = 15f
         logo.setImageDrawable(rounded)
+        
 
     }
 }
